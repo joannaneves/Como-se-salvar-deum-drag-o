@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/badge.png" width="230px" />
+  <img src="" width="230px" />
 </div>
 <br/>
 <div align="center">
@@ -9,14 +9,10 @@
   <img src="https://img.shields.io/github/actions/workflow/status/vcwild/tcc-proxy/build.yml?branch=main&style=flat-square&color=%23ff3cbe" alt="build" />
 </div>
 
-# tcc-proxy
+# Como se salvar de um Dragão
 
-This Proxy Go's final project. It is an interactive e-book history.
+Ebook interativo.
 
 ## References
 
 - [Mental canvas](https://www.mentalcanvas.com/)
-
-## License
-
-This project is licensed with an All Rights Reserved license - see the [LICENSE](LICENSE) file for details.
