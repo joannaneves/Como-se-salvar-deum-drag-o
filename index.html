@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- css -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- font link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+   <!-- title -->
+   <title>Como se salvar de um Dragão 🐉</title>
+</head>
+
+<body id="home">
+
+   <!-- header -->
+   <header>
+      <div class="header_container">
+         <a href="#home">Home</a>
+         <a href="#how_it_work">Como Funciona</a>
+      </div>
+   </header>
+
+   <!-- main -->
+   <main>
+      <h2>Como se salvar de um <span>Dragão</span></h2>
+      <p>A cavalheira destemida de armadura brilhante.<br> Armada com a espada da coragem, o escudo do Amor Próprio e o
+         elmo da Justiça,<br>ela embarca em uma jornada para enfrentar os cinco dragões de Abusuu</p>
+   </main>
+
+   <!-- how it works -->
+   <div id="how_it_work" class="how_it_work">
+      <h2 id="">Como Funciona</h2>
+      <div class="work_container">
+         <div class="work_item">
+            <img src="img/deitar_cell.png" alt="">
+            <span>Vire o celular para uma melhor experiencia</span>
+         </div>
+         <div class="work_item">
+            <img src="img/hand_cell.png" alt="">
+            <span>Use os comandos da tela para dar play, pausar e voltar ou avançar a cena</span>
+         </div>
+         <div class="work_item">
+            <img src="img/modo-paisagem.png" alt="">
+            <span>Interaja com a cena tocando na tela e para retomar a historia volte a clicar no play</span>
+         </div>
+      </div>
+   </div>
+
+   <!-- iframe section -->
+   <section class="iframe_section">
+      <img src="img/start_xp.png" alt="">
+      <button onclick="checkWidth('open')">Começar Experiência</button>
+   </section>
+
+   <!-- iframe modal -->
+   <div class="modal" id="modal">
+      <iframe id="interactive-video" src="https://mentalcanvas.com/vm/84gymd9/scene/" frameborder="0"
+         allowfullscreen></iframe>
+      <button onclick="modal('close')">Fechar</button>
+   </div>
+
+   <!-- footer -->
+   <footer>
+      <span>©
+         <script>document.write(new Date().getFullYear());</script> – Todos os direitos reservados a <a
+            href="https://about.me/joannamalta">Joanna</a>
+      </span>
+   </footer>
+
+   <!-- dialog -->
+   <dialog id="dialog">
+      <div class="box" id="box">
+         <h2>Recomendamos a experiência em modo Paisagem</h2>
+         <p>Vire seu celular de lado para uma melhor experiência!</p>
+         <button onclick="checkWidth('open')">Entendi</button>
+      </div>
+   </dialog>
+
+   <!-- scripts -->
+   <script src="utils.js"></script>
+
+</body>
+
+</html>
